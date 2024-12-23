@@ -50,7 +50,7 @@ body {
       align-items: center;
       text-transform: uppercase;
       text-decoration: none;
-      color: black;
+      color: #060b35;
       height: 60px;
       line-height: 60px;
       position: relative;
@@ -229,7 +229,7 @@ p {
 }
 
 // Card__container
-.cardСontainer {
+.cardcontainer {
   --column-count: 1;
 
   margin: 0;
@@ -243,19 +243,19 @@ p {
 }
 
 @media (min-width: 488px) {
-  .cardСontainer {
+  .cardcontainer {
     --column-count: 2;
   }
 }
 
 @media (min-width: 768px) {
-  .cardСontainer {
+  .cardcontainer {
     --column-count: 3;
   }
 }
 
 @media (min-width: 1024px) {
-  .cardСontainer {
+  .cardcontainer {
     --column-count: 4;
   }
 }
